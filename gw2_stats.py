@@ -14,12 +14,12 @@ IMPORTANT_BOONS: Set[str] = {
 
 # Per-boon weights for support score
 BOON_GENERATION_WEIGHTS: Dict[str, float] = {
-    "Might": 0.5,
-    "Fury": 0.7,
+    "Might": 0.4,
+    "Fury": 0.2,
     "Quickness": 1.5,
     "Alacrity": 1.5,
-    "Protection": 0.3,
-    "Stability": 0.8,
+    "Protection": 0.5,
+    "Stability": 0.3,
 }
 
 
